@@ -7,7 +7,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Lorrayne Rocha"]
   s.email       = 'lorrocha90@gmail.com'
   s.files       = ["lib/gifworthy.rb"]
-  s.homepage    =
-    'http://rubygems.org/gems/gifworthy'
-  s.license       = 'MIT'
+  s.homepage    = 'http://rubygems.org/gems/gifworthy'
+  s.license     = 'MIT'
+  s.add_runtime_dependency 'rmagick', '~> 2.15'
+  s.executables << 'gifworthy'
 end
